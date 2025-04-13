@@ -1,0 +1,9 @@
+# Normalize line endings across OSes
+* text=auto
+
+# Treat notebooks as binary to avoid noisy merge conflicts
+*.ipynb diff=none
+
+# Explicitly mark data files as binary
+*.db binary
+*.csv text
