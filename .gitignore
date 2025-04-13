@@ -1,0 +1,43 @@
+# 🧁 .gitignore for bakery-data-lab
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment & system files
+.env
+*.env
+.DS_Store
+
+# VS Code project settings (optional to ignore)
+.vscode/
+
+# Conda or virtualenv folders (if local)
+bakery-lab/
+venv/
+env/
+
+# SQLite database or generated data files
+*.db
+*.sqlite
+*.log
+*.csv
+
+# Scratch or WIP notebooks
+notebooks/*-scratch.ipynb
+
+# Compiled Cython files
+*.so
+
+# __pycache__ folders inside submodules or scripts
+scripts/**/__pycache__/
+
+# Output images (if generating charts)
+output/*.png
+output/*.pdf
+
